@@ -1,0 +1,39 @@
+Pitch/Vofa - 5/16/2022 - Re-started project:
+	[ New Directories ]
+	  - "images" directory in "/client"
+	  - "auth" directory in "/client"
+	
+	[ New Files ]
+	  - Authentification system (file(s): "signup.php"; in "/client/auth")
+	  - Lanfing page (file(s): "index.php","style.css"; in "/client")
+	  - Cost ideas (file(s): "Cost of certain Tiers.md"; in "/")
+	  - Changelog system (file(s): "Changlog.txt"; in "/")
+
+
+Pitch - 5/17/2022 - Styling:
+	[ Changed Files ]
+	  - Added favicon to landing page (file(s): "index.php","favicon.ico"; in "/client","/client/images")
+	  - Auth system (file(s): "signup.php"; in "/client/auth")
+
+Vofa - 5/18/2022 -	User Signup:
+  [ Changed Files ] 
+	  - Created a simple Auth system (file(s): "signup.php"; in "/client/auth") {		final version WIP		}
+
+	[ New Files ]
+	  - User page (file(s): "/client/user/me.php")
+	  - Dbeaver database template (file(s): "/server/database/database-template.dbp")
+
+	[ New Run Requirements (Only if you want to get user sign in testing working, will later be changed when we are able to actually host the postgres server) ]
+	  - PostgreSQL server: https://www.postgresql.org/ (port: "5432", database-name: "postgres", user-name: "postgres", password: "postgres")
+	  - Add "extension=php_pgsql.dll (new line) extension=php_pdo_pgsql.dll" to php.ini file in your php installation
+	  - Download "dbeaver": https://dbeaver.io/
+	  - Import database template into dbeaver
+
+Pitch - 5/18/2022 - Editing Tier Perks:
+	[Changed Files]
+	  - Edited Tier Perks (file(s): "Cost of certain Tiers.md"; in "/")
+	  - Styled landing page even more (file(s): "index.php"; in "/client")
+
+Vofa - 5/19/2022 - Editing tier Perks
+	[Changed Files]
+	  - Updated tier Perks {	User and streamer tier perks are now merged so there aren't too many options that confuse the end user	} (file(s): "Cost of certain Tiers.md"; in "/")
