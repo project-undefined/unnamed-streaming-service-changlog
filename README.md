@@ -1,2 +1,1 @@
-# unamed-streaming-service-changlog
-Changelog to the closed-source project Unamed-Streaming-Service
+# See changlog.txt for the changelog
